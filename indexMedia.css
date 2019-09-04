@@ -1,0 +1,124 @@
+/*@media(max-width : 1280px){
+    body{
+        background-color: rgb(76, 76, 201);
+    }
+    .my-form {
+        padding: 45px 30px 18px 30px;
+    }
+}
+
+@media(max-width : 991px){
+    body{
+        background-color: hsl(133, 70%, 36%);
+    }
+    .my-yellow-img {
+        justify-content: center;
+        padding-top: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+    .my-yellow-text {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 11px;
+    }
+    .my-form {
+        padding: 43px 30px 14px 30px;
+    }
+    .my-bar {
+        margin: 17px 5px 23px 5px;
+    }
+    .my-flex-item {
+        padding: 10px;
+        background-color: #2090C2;
+        margin: 3px 0;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+    }
+    .another-nav {
+        padding: 6px 12px 2px 12px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width : 650px){
+    body{
+        background-color: blue;
+    }
+    .my-input{
+        font-size: 8px;
+    }
+}*/
+
+@media only screen and (min-width : 1198px) and (max-width : 1224px) {
+    body{
+        background-color: yello;
+    }
+}
+@media only screen and (min-width : 976px) and (max-width : 1198px) {
+    body{
+        background-color: gree;
+    }
+    .my-form {
+        padding: 65px 30px 26px 30px;
+    }
+    .my-p-bar-padding {
+        padding: 12px 21px;
+    }
+}
+@media only screen /*and (min-width : 768px)*/ and (max-width : 976px) {
+    body{
+        background-color: blu;
+    }
+    .my-bar{
+        margin: 39px 5px -27px 5px;
+    }
+    .my-p-bar-padding {
+        padding: 16px 21px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .my-form{
+        padding: 16px 30px 26px 30px;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 10px;
+}
+
+
+@media only screen and (max-width : 766px) {
+    body{
+        background-color: brow;
+    }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 595px) {
+    body{
+        background-color: pin;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    body{
+        background-color: purpl;
+    }
+    .my-search{
+        padding: 0 3px;
+        font-size: 9px;
+    }
+    .another-nav{
+        font-size: 9px;
+    }
+    .my-progress-bar {
+        margin: 5px 24px 5px 0px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+}
+
+.my-nav{
+    display: flex;
+    list-style: none;
+    background-color: white;
+    margin-top: 5px
+}
+
+li{
+    padding: 4px;
+}
+
+.push{
+    margin-left: auto;
+}
+li, .special-li{
+    font-style: italic;
+}
+.another-nav{
+    padding: 6px 12px 6px 12px;
+}
+
+/*main section*/
+.yellow{
+    background-color: orange;
+    color: white;
+}
+h4{
+    font-size: 21px;
+}
+.my-yellow-img{
+    justify-content: center;
+    padding: 30px;
+}
+.my-yellow-text{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.my-btn{
+    background-color: #FF9803;
+    color: white;
+    width: 100%;
+}
+.my-icon{
+    background-color: #FF9803;
+    color: white;
+}
+.my-border{
+    border-right: 3px solid #A1A1A1;
+}
+.my-icon-arrange{
+    padding-top: 25px;
+}
+.first-btn{
+    padding-bottom: 30px;
+}
+.sub{
+    padding: 0 0 0 0;
+}
+.my-sub-head{
+    padding: 16px;
+    color: white;
+}
+.newbg-color{
+    background-color: #05A8F5;
+}
+.my-form{
+    padding: 88px 30px 26px 30px;
+}
+.flex-div{
+    padding-bottom: 58px;
+}
+.my-font-a{
+    background-color: white;
+    color: black;
+}
+.my-flex-item{
+    padding: 10px;
+    background-color: #2090C2;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+.img-after-flex{
+    margin-top: -57px;
+}
+.my-bar{
+    margin: 39px 5px 24px 5px;
+}
+.my-progress-bar{
+    margin: 5px 5px 5px 5px;
+}
+.another-bg-color{
+    background-color: white;
+}
+.my-p-bar-padding{
+    padding: 48px 21px;
+}
+.show-percent{
+    display: flex;
+    margin-bottom: -36px;
+}
+.my-per{
+    margin-left: auto;
+}
+.progress-text{
+    color: gray;
+    font-size: 11px;
+}
+.my-group{
+    margin: 17px 0 32px 0;
+}
