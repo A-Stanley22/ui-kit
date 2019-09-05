@@ -12,13 +12,13 @@
 <body>
     <div class="container">
             <header>
-                    <nav>
+                    <!--<nav>
                         <ul class="my-nav another-nav">
-                            <li class="special-li">Home</li>
-                            <li class="special-li">About</li>
-                            <li class="special-li">gallery</li>
-                            <li class="special-li">Contact</li>
-                            <li class="special-li">search</li>
+                            <li class="special-li"><a href="">Home</a></li>
+                            <li class="special-li"><a href="">About</a></li>
+                            <li class="special-li"><a href="">Gallery</a></li>
+                            <li class="special-li"><a href="">Contact</a></li>
+                            <li class="special-li"><a href="">Search</a></li>
                             <li class="push spc">
                                 <div class="input-group md-form form-sm form-2 pl-0 my-search">
                                         <input class="form-control my-0 py-1 red-border my-input" type="text" placeholder="Search" aria-label="Search">
@@ -29,12 +29,44 @@
                                 </div>
                             </li>
                         </ul>
-                    </nav>
+                    </nav>-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                              <a class="li-items" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="li-items" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="li-items" href="#" tabindex="-1" aria-disabled="true">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="li-items" href="#" tabindex="-1" aria-disabled="true">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="li-items" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                            </li>
+                              
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                          </form>
+                        </div>
+                      </nav>
+
                 </header>
+
+
       <div class="row">
         <div class="col-md-4 mt-4">
             <section>
-                        <div class="col-12">
+                    <div class="col-12">
                         <div class="first ">
                             <div class="row yellow pl-0">
                                         <div class="col-md-6 my-yellow-img">
@@ -92,7 +124,7 @@
                 <div class="col-md-4">
                     <section>
                             <div class="col-12 mt-4 sub">
-                                    <header class="text-center my-sub-head newbg-color">Subscrip Here</header>
+                                    <header class="text-center my-sub-head newbg-color">Subscribe Here</header>
                                     <form class="my-form another-bg-color">
                                             <div class="form-group">
                                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -106,7 +138,7 @@
 
                     <section>
                             <div class="col-12 mt-4 p-0 my-progress-bar">
-                                    <header class="p-3 text-center text-white newbg-color">Subscrip Here</header>
+                                    <header class="p-3 text-center text-white newbg-color">Skills</header>
                                     <div class="my-p-bar-padding another-bg-color">
                                                 <div class="my-group">
                                                         <div class="show-percent">
@@ -164,11 +196,11 @@
                     <section>
                             <div class="mt-1 p-3">
                                 <div class="row flex-div">
-                                        <div class="myFlex col-12 my-flex-item">Rectangle out</div>
-                                        <div class="myFlex col-12 my-flex-item">shutter in Horizontal</div>
-                                        <div class="myFlex col-12 my-flex-item">Radial out</div>
-                                        <div class="myFlex col-12 my-flex-item">Bounce to left</div>
-                                        <div class="myFlex col-12 my-flex-item">Sweep to bottom</div>
+                                        <div class="myFlex col-12 my-flex-item">Rectangle Out</div>
+                                        <div class="myFlex col-12 my-flex-item">shutter In Horizontal</div>
+                                        <div class="myFlex col-12 my-flex-item">Radial Out</div>
+                                        <div class="myFlex col-12 my-flex-item">Bounce To Left</div>
+                                        <div class="myFlex col-12 my-flex-item">Sweep To Bottom</div>
                                 </div>
                             </div>
                     </section>
@@ -212,5 +244,9 @@
                 </div>
          </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

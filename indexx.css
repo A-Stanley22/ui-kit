@@ -8,16 +8,27 @@ body{
     background-color: white;
     margin-top: 5px
 }
-
+.special-li{
+    margin-left: 35px;
+}
 li{
     padding: 4px;
 }
-
+.li-items{
+    color: black;
+    margin-left: 25px;
+}
 .push{
     margin-left: auto;
 }
-li, .special-li{
-    font-style: italic;
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+     color: black; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 .another-nav{
     padding: 6px 12px 6px 12px;
@@ -44,6 +55,9 @@ h4{
     background-color: #FF9803;
     color: white;
     width: 100%;
+}
+.my-btn:hover{
+    color: white;
 }
 .my-icon{
     background-color: #FF9803;
